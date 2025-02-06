@@ -710,3 +710,147 @@ ul.anchor-bar-links li a:hover {
     max-width: 100%;
   }
 }
+
+/* glowy */
+
+.glowy-container {
+  background: radial-gradient(ellipse, rgba(0, 255, 255, 0.4), transparent 60%);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 70px 0;
+}
+
+.glow {
+  padding: 100px 0;
+  max-width: 700px;
+  width: 100%;
+}
+
+.glow h1 {
+  margin: 40px 0;
+}
+
+.glow p {
+  font-size: 20px;
+}
+
+/* Header */
+
+/* Main Content */
+.socials {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 60px 0 80px 0;
+}
+
+.socials button {
+  background: linear-gradient(
+    79.54deg,
+    rgba(73, 73, 73, 0.4) 16.78%,
+    rgba(77, 77, 77, 0.5) 46.33%,
+    hsla(0, 0%, 40%, 0.5) 73.76%,
+    hsla(0, 0%, 50%, 0.5) 94.21%
+  );
+  border: none;
+  border-top: 1px solid grey;
+  border-right: 1px solid grey;
+}
+
+.social-menu {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.social-menu svg {
+  width: 20px;
+  height: 30px;
+}
+
+.links-section {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 40px;
+  margin: 0 auto;
+  max-width: 1100px;
+  width: 100%;
+}
+
+.column {
+  flex: 1;
+  min-width: 180px;
+  color: #9d9fa2;
+}
+
+.column h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.column ul {
+  list-style: none;
+}
+
+.column ul li {
+  margin-bottom: 8px;
+}
+
+.column ul li a {
+  text-decoration: none;
+  color: #a0a2a8;
+  font-size: 14px;
+}
+
+.column ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background-color: black;
+  color: #9d9fa2;
+  padding: 80px 0 30px 0;
+  text-align: center;
+}
+
+.footer-links {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #9d9fa2;
+  text-decoration: none;
+  font-size: 12px;
+
+  border-right: 1px solid;
+  padding: 0 10px;
+}
+
+.footer-links a:last-child {
+  border-right: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+details li {
+  list-style: upper-roman;
+  line-height: 20px;
+  /* padding-top: 20px; */
+}
